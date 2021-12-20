@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+    <h2>Birthday Countdown!</h2>
+
+    <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthdayDate" name="birthday">
+        <input type="submit" value="Submit" onclick="birthday();">
+    </form>
+    
+    
+
+    <script>
+        function birthday(){
+            var date = document.getElementById("birthdayDate").value;
+            return date;
+        }
+        birthday();
+    </script>
+</html>
